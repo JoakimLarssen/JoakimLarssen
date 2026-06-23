@@ -9,7 +9,7 @@
 ### `> I break systems and build the tools that defend them.`
 
 - Building **[Riposte](https://github.com/JoakimLarssen/Riposte)** with [Krister Eriksen](https://www.linkedin.com/in/krister-eriksen-774963300/), an agentic security CLI in the spirit of Claude Code and Codex, but built for offensive and defensive work instead of coding: recon, exploitation, and detection engineering, every action scope-gated and audited.
-- CTF competitor: three podium finishes, including a win at CybVest. I co-hosted one CybVest edition, once.
+- CTF competitor: three podium finishes, including a win at Cybvest. I also co-hosted a Cybvest edition.
 - Based in **Oslo**, studying Cybersecurity at Høyskolen Kristiania and volunteering as a developer at **[Kvarteret studenthus](https://kvarteret.no)**.
 - Ask me about **purple-teaming, CTF, or AI agents**.
 - Reach me at **[joakimnordheimlarssen@gmail.com](mailto:joakimnordheimlarssen@gmail.com)**.
@@ -125,7 +125,7 @@
 
 #### `// ctf`
 
-Three podium finishes, one a win at CybVest. Helt Sikker CTF solo 3rd, Kongsberg x Helt Sikker 3rd, EPT 2025 4th student. I co-hosted one CybVest edition, once. Crypto, pwn, web.
+Three podium finishes, one a win at Cybvest. Helt Sikker CTF solo 3rd, Kongsberg x Helt Sikker 3rd, EPT 2025 4th student. I also co-hosted a Cybvest edition. Crypto, pwn, web.
 
 <!-- ============================================================ -->
 <!-- CONNECT                                                      -->
