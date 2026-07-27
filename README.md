@@ -53,7 +53,7 @@
       <img alt="GitHub contributions, last roughly nine weeks, rendered as a teal grid" src="https://raw.githubusercontent.com/JoakimLarssen/JoakimLarssen/main/assets/contributions-2mo.svg" width="169">
     </td>
     <td valign="top" align="center">
-      <img alt="GitHub streak stats" src="https://streak-stats.demolab.com/?user=JoakimLarssen&hide_border=false&background=0D1011&border=22282B&stroke=22282B&ring=5ED3C4&fire=5ED3C4&currStreakNum=E6E7E8&sideNums=E6E7E8&currStreakLabel=5ED3C4&sideLabels=828B8F&dates=6F787C">
+      <img alt="GitHub streak stats" src="https://raw.githubusercontent.com/JoakimLarssen/JoakimLarssen/main/assets/streak-stats.svg" width="495">
     </td>
   </tr>
 </table>

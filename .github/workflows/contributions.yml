@@ -39,13 +39,19 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/render-contributions.mjs
 
+      - name: Refresh streak stats SVG
+        run: |
+          curl --fail --location --retry 3 --retry-delay 2 \
+            'https://streak-stats.demolab.com/?user=JoakimLarssen&hide_border=false&background=0D1011&border=22282B&stroke=22282B&ring=5ED3C4&fire=5ED3C4&currStreakNum=E6E7E8&sideNums=E6E7E8&currStreakLabel=5ED3C4&sideLabels=828B8F&dates=6F787C' \
+            --output assets/streak-stats.svg
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain assets/contributions-2mo.svg)" ]]; then
-            git add assets/contributions-2mo.svg
-            git commit -m "chore: refresh contributions widget [skip ci]"
+          if [[ -n "$(git status --porcelain assets/contributions-2mo.svg assets/streak-stats.svg)" ]]; then
+            git add assets/contributions-2mo.svg assets/streak-stats.svg
+            git commit -m "chore: refresh activity widgets [skip ci]"
             # Push with a rebase-and-retry so a scheduled run colliding with a
             # manual dispatch (or the other workflow) cannot lose the refresh
             # to a non-fast-forward rejection.
